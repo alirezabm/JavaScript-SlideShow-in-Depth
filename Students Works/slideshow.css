@@ -1,7 +1,7 @@
 
 div.slideshow{
 	background-image:url(../images/ic-images/bkg.png);
-	border: 1px solid red;
+	border: 2px groove #000;
 	margin:0 auto;
 	border-radius:10px;
 	width      : 900px;
