@@ -1,0 +1,114 @@
+
+div.slideshow{
+	background-image:url(../images/ic-images/bkg.png);
+	border: 1px solid red;
+	margin:0 auto;
+	border-radius:10px;
+	width      : 900px;
+	height     : 400px;
+	/*margin     : 30px auto 0;*/
+	overflow   : hidden;
+	position   : relative;
+	background-repeat:repeat-x;  
+	background-position : center center;
+}
+
+div.slideshow div.train{
+	margin   : 185px auto 0;
+	width    : 10000px;
+	height   : 215px;
+	position : absolute;
+	left     : 0;
+	top      : 0;
+	-webkit-transition : left 800ms ease-in-out;
+	
+}
+
+div.slideshow div.train > div{
+	margin-left:20px;
+	width  : 280px;
+	height : inherit;
+	float  : left;
+	border-radius       : 4px;
+	background-size     : cover;
+	background-repeat   : no-repeat;
+	background-position : left top;
+}
+
+
+
+/* Navigation
+-------------------------------------------------- 
+
+div.slideshow ul.btns{
+	height     : 13px;
+	list-style : none;
+	position   : absolute;
+	left       : 0;
+	bottom     : 0;
+}
+
+div.slideshow ul.btns li{
+	float  : left;
+	width  : 30px;
+	height : 10px;
+	cursor : pointer;
+	margin-right       : 5px;
+	border-radius      : 2px;
+	background-color   : #333;
+	-webkit-transition : all 1100ms;
+}
+
+div.slideshow ul.btns li:hover,
+div.slideshow ul.btns li.active{
+	height           : 16px;
+	margin-top       : -3px;
+	background-color : #2677AD;
+	-webkit-transition-duration : 200ms;
+}
+
+
+-------------------------------------------------*/
+
+
+div.slideshow div.previous,
+div.slideshow div.next{
+	position : absolute;
+	top      : 150px;
+	width    : 35px;
+	height   : 80px;
+	opacity  : 0.5;
+	cursor   : pointer;
+	background-image:url(../images/ic-images/next-prev.png);
+	background-repeat  : no-repeat;
+	-webkit-transition : opacity 500ms;
+}
+
+div.slideshow:hover div.previous,
+div.slideshow:hover div.next{
+	opacity : 1;
+}
+
+div.slideshow div.previous{
+	background-position : 0px 0px;
+	left : 0px;
+}
+div.slideshow div.next{
+	right : 0px;
+	background-position : -35px 0px;
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
