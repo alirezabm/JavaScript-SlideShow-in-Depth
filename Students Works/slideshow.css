@@ -42,7 +42,7 @@ div.slideshow div.train > div{
 
 div.takhte {
 
-	background-image:url(../images/ic-images/paye.png);
+	background-image:url(../images/ic-images/takhte.png);
 	width:900px;
 	height:150px;
 	position:absolute;
@@ -67,6 +67,35 @@ div.balon {
 	width:240px;
 	height:175px;	
 	
+}
+
+div.balon p {
+	
+	margin-left:45px;
+	margin-top:35px;
+	color:#fff;
+	font-size:25px;
+	font-weight:bold;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	color:#FFF;	
+	
+}
+
+div.balon input {
+	
+	margin-left:40px;
+	margin-top:20px;	
+	height:32px;
+	color:#FFF;
+	background-image:url(../images/ic-images/bkg-button.jpg);
+	background-repeat:repeat-x;
+	width:160px;
+	border:1px solid #fff;
+	font-size:11px;
+	font-weight:bold;
+	border-radius:5px;
+	margin-right:7px;
 }
 
 div.ax:hover div.balon
