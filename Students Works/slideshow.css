@@ -14,9 +14,9 @@ div.slideshow{
 }
 
 div.slideshow div.train{
-	margin   : 185px auto 0;
+	margin   : 177px auto 0;
 	width    : 10000px;
-	height   : 215px;
+	height   : 400px;
 	position : absolute;
 	left     : 0;
 	top      : 0;
@@ -25,9 +25,9 @@ div.slideshow div.train{
 }
 
 div.slideshow div.train > div{
-	margin-left:20px;
-	width  : 280px;
-	height : inherit;
+	margin-left:10px;
+	width  : 290px;
+	height : 215px;
 	float  : left;
 	border-radius       : 4px;
 	background-size     : cover;
@@ -35,7 +35,25 @@ div.slideshow div.train > div{
 	background-position : left top;
 }
 
+div.ax {
 
+	position:relative;
+	
+	z-index:1;
+	
+}
+
+div.balon {
+	
+	background-color:#FF0;
+	position:absolute;
+	top:-150px;
+	left:20px;
+	border:1px solid white;
+	width:240px;
+	height:175px;	
+	
+}
 
 /* Navigation
 -------------------------------------------------- 
