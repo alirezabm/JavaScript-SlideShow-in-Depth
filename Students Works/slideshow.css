@@ -39,21 +39,25 @@ div.ax {
 
 	position:relative;
 	
-	z-index:1;
-	
 }
 
 div.balon {
 	
-	background-color:#FF0;
+	background-image:url(../images/ic-images/bkg-balon.png);
 	position:absolute;
-	top:-150px;
+	top:-160px;
 	left:20px;
-	border:1px solid white;
+	opacity:0.5;
 	width:240px;
 	height:175px;	
 	
 }
+
+div.ax:hover div.balon
+{
+	opacity : 1;
+}
+
 
 /* Navigation
 -------------------------------------------------- 
