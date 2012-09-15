@@ -1,4 +1,9 @@
-
+div.top-slideshow {
+	
+	width:950px;
+	height:500px;
+	
+}
 div.slideshow{
 	background-image:url(../images/ic-images/bkg.png);
 	border: 2px groove #000;
@@ -14,7 +19,7 @@ div.slideshow{
 }
 
 div.slideshow div.train{
-	margin   : 177px auto 0;
+	margin   : 170px auto 0;
 	width    : 10000px;
 	height   : 400px;
 	position : absolute;
@@ -35,6 +40,17 @@ div.slideshow div.train > div{
 	background-position : left top;
 }
 
+div.takhte {
+
+	background-image:url(../images/ic-images/paye.png);
+	width:900px;
+	height:150px;
+	position:absolute;
+	margin-top:330px;
+	margin-bottom:5px;	
+	
+}
+
 div.ax {
 
 	position:relative;
@@ -47,7 +63,7 @@ div.balon {
 	position:absolute;
 	top:-160px;
 	left:20px;
-	opacity:0.5;
+	opacity:0.8;
 	width:240px;
 	height:175px;	
 	
